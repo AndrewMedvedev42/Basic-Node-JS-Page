@@ -18,4 +18,4 @@ const { RSA_NO_PADDING } = require('constants')
                 res.end()  
             })
         }
-    }).listen(5000, console.log("Server is launched and running"))
+    }).listen(process.env.PORT || 5000, console.log("Server is launched and running"))
