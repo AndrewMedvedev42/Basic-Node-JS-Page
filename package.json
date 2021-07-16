@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop":"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "Andrew Medvedev",
   "license": "ISC",
   "dependencies": {
+    "heroku": "^7.56.1",
     "nodemon": "^2.0.12"
   }
 }
